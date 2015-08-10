@@ -3,11 +3,29 @@
 ********************************/
 
 h1,
-h2 {
+h2,
+nav ul li,
+a:link {
     font-family: 'Arapey', serif;
     color: white;
+    
 }
 
 p {
     font-family: 'Quicksand', sans-serif;
+}
+
+
+/********************************
+    Header
+********************************/
+
+h1,
+h2 {
+    text-align: center;
+}
+
+nav ul li a {
+    
+    
 }

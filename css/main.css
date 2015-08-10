@@ -1,6 +1,25 @@
+/********************************
+    Header
+********************************/
+
 header {
     background: #FF4D97;
+    border-bottom: 5px solid #616161;
 }
+
+
+/********************************
+    Navigation
+********************************/
+
+nav ul li,
+a {
+    display: inline;
+    color: #fff;
+    font-size: 1.2em;
+    
+}
+
 
 
 
