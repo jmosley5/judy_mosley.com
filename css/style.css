@@ -1,0 +1,13 @@
+/*******************************
+    Fonts
+********************************/
+
+h1,
+h2 {
+    font-family: 'Arapey', serif;
+    color: white;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
