@@ -7,7 +7,6 @@ h2,
 nav ul li,
 a:link {
     font-family: 'Arapey', serif;
-    color: white;
     
 }
 
@@ -20,12 +19,58 @@ p {
     Header
 ********************************/
 
-h1,
-h2 {
+h1 {
     text-align: center;
 }
 
-nav ul li a {
+nav a:link {
     text-decoration: none;
-    
 }
+
+
+/********************************
+    Reviews
+*********************************/
+
+
+.reviews {
+    padding: 5%;
+    font-size: 17px;
+}
+
+.review_header {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
