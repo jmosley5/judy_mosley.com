@@ -5,6 +5,8 @@
 header {
     background: #FF4D97;
     border-bottom: 5px solid #616161;
+    position: relative;
+    top: -20px;
 }
 
 #glasses_img {
@@ -31,7 +33,6 @@ a {
 }
 
 nav {
-    text-align: right;
     
 }
 

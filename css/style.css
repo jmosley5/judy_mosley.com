@@ -43,6 +43,18 @@ nav a:link {
 }
 
 
+/********************************
+    Navagation
+********************************/
+.centered-pills {
+    text-align: center;
+}
+
+.centered-pills ul.nav-pills {
+    display: inline-block;
+}
+
+
 
 
 
