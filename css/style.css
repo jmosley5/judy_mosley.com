@@ -6,12 +6,14 @@ h1,
 h2,
 nav ul li,
 a:link {
-    font-family: 'Arapey', serif;
+    font-family: "Arapey", Helvetica, Arial, sans-serif!important;
     
 }
 
+h3,
+h4, 
 p {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", Helvetica, Arial, sans-serif!important;
 }
 
 
@@ -21,6 +23,7 @@ p {
 
 h1 {
     text-align: center;
+    color: #fff;
 }
 
 nav a:link {
@@ -55,6 +58,33 @@ nav a:link {
 }
 
 
+/********************************
+    Images
+********************************/
+
+#dj_glasses {
+    height: 250px;
+    margin-left: 40px;
+    
+}
+
+#fb_like {
+    height: 200px;
+    margin-left: 100px;
+}
+
+
+
+/********************************
+        Events
+********************************/
+
+.fb_events {
+    margin-left: 75px;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 75px;
+}
 
 
 
