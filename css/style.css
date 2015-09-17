@@ -42,7 +42,8 @@ nav a:link {
 }
 
 .review_header {
-    text-align: center;
+    text-align: left;
+    
 }
 
 
@@ -86,6 +87,44 @@ nav a:link {
     margin-top: 75px;
 }
 
+
+
+
+
+
+/*********************************
+        Store
+*********************************/
+
+h2, 
+h3 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h2,
+h3, 
+h4, 
+.book_cover,
+.k_book_store,
+.c_book_store {
+    margin-left: 150px;
+}
+
+.book_cover {
+    margin-bottom: 50px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.k_book_store, 
+.c_book_store {
+    margin-bottom: 45px;
+}
 
 
 

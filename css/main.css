@@ -43,4 +43,6 @@ nav {
 
 footer {
     background: #57BCFF;
+    text-align: right;
+    postition: relative;
 }
