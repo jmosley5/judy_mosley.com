@@ -16,6 +16,9 @@ p {
     font-family: "Quicksand", Helvetica, Arial, sans-serif!important;
 }
 
+h1 {
+    text-shadow: 2px 2px #616161;
+}
 
 /********************************
     Header
@@ -126,13 +129,32 @@ h4 {
     margin-bottom: 45px;
 }
 
+/**********************************
+    About
+**********************************/
+
+#square_profile_pic {
+    height: 200px;
+    float: left;
+    margin-left: 30px;
+}
+
+.normal_links {
+    margin: 0px;
+}
+
+.about_p {
+    margin-left: 250px;
+    margin-top: 75px;
+    margin-right: 50px;
+    font-size: 1.5em;
+}
 
 
 
-
-
-
-
+/*********************************
+    Footer
+*********************************/
 
 
 
