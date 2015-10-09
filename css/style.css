@@ -6,7 +6,7 @@ h1,
 h2,
 nav ul li,
 a:link {
-    font-family: "Arapey", Helvetica, Arial, sans-serif!important;
+    font-family: "Shadows Into Light", Helvetica, Arial, sans-serif!important;
     
 }
 
@@ -20,6 +20,16 @@ h1 {
     text-shadow: 2px 2px #616161;
 }
 
+nav ul li,
+a:link {
+    font-size: 1.5em;
+}
+
+a:link {
+    text-shadow: 1px 1px #bfbfbf;
+    font-weight: 700;
+}
+
 /********************************
     Header
 ********************************/
@@ -27,10 +37,16 @@ h1 {
 h1 {
     text-align: center;
     color: #fff;
+    padding-top: 30px;
+    font-size: 4em;
 }
 
 nav a:link {
     text-decoration: none;
+}
+
+#dandelion_png {
+    height: 100px;
 }
 
 
