@@ -35,18 +35,15 @@ a:link {
 ********************************/
 
 h1 {
-    text-align: center;
     color: #fff;
-    padding-top: 30px;
     font-size: 4em;
+    position: absolute;
+    margin-left: 510px;
 }
 
 nav a:link {
     text-decoration: none;
-}
-
-#dandelion_png {
-    height: 100px;
+    margin-top: 150px;
 }
 
 
@@ -91,6 +88,29 @@ nav a:link {
 #fb_like {
     height: 200px;
     margin-left: 100px;
+}
+
+.coffee {
+    height: 250px;
+    position: relative;
+    margin-bottom: -500px;
+    margin-left: 150px;
+    
+}
+
+.flower_background {
+    height: 400px;
+    position: relative;
+    margin-left: 435px;
+    margin-top: 75px;
+    margin-bottom: -250px;
+}
+
+.monarch {
+    height: 100px;
+    postition: relative;
+    margin-bottom: -500px;
+    margin-left: 1000px
 }
 
 
