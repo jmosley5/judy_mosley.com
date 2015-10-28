@@ -5,14 +5,14 @@
 h2,
 nav ul li,
 a:link {
-    font-family: "Quicksand", Helvetica, Arial, sans-serif!important;
+    font-family: "Simonetta", cursive, Helvetica, Arial, sans-serif!important;
     
 }
 
 h3,
 h4, 
 p {
-    font-family: "Quicksand", Helvetica, Arial, sans-serif!important;
+    font-family: "Simonetta", cursive, Helvetica, Arial, sans-serif!important;
 }
 
 h1 {
@@ -31,6 +31,10 @@ a:link {
     font-weight: 700;
 }
 
+h2 {
+    text-align: center;
+}
+
 /********************************
     Header
 ********************************/
@@ -39,7 +43,7 @@ h1 {
     color: #fff;
     font-size: 4em;
     position: absolute;
-    margin-left: 510px;
+    margin-left: 550px;
     margin-top: 200px
 }
 
@@ -105,30 +109,6 @@ nav a:link {
     margin-left: 100px;
 }
 
-.coffee {
-    height: 250px;
-    position: relative;
-    margin-bottom: -500px;
-    margin-left: 150px;
-    
-}
-
-.flower_background {
-    height: 400px;
-    position: relative;
-    margin-left: 435px;
-    margin-top: 75px;
-    margin-bottom: -250px;
-}
-
-.pen {
-    height: 150px;
-    postition: relative;
-    margin-bottom: -500px;
-    margin-left: 1000px
-}
-
-
 
 /********************************
         Events
@@ -150,15 +130,12 @@ nav a:link {
         Store
 *********************************/
 
-h2, 
-h3 {
+h2 {
     font-weight: 700;
     font-size: 2.5em;
+    margin-top: 50px;
 }
-
-h2,
-h3, 
-h4, 
+ 
 .book_cover,
 .k_book_store,
 .c_book_store {
@@ -166,10 +143,12 @@ h4,
 }
 
 .book_cover {
-    margin-bottom: 50px;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: 50px;
 }
 
-h4 {
+h2 {
     font-weight: 700;
     font-size: 2em;
     margin-bottom: 30px;
@@ -180,25 +159,33 @@ h4 {
     margin-bottom: 45px;
 }
 
+.buy_now_button {
+    margin-left: 550px;
+    height: 40px;
+}
+
 /**********************************
     About
 **********************************/
 
 #square_profile_pic {
     height: 200px;
-    float: left;
-    margin-left: 30px;
-}
-
-.normal_links {
-    margin: 0px;
+    margin-left: 550px;
+    margin-top: 30px;
 }
 
 .about_p {
     margin-left: 250px;
-    margin-top: 75px;
-    margin-right: 50px;
+    margin-right: 250px;
     font-size: 1.5em;
+}
+
+#top_p {
+    margin-top: 45px;
+}
+
+.normal_links {
+    margin: 0px;
 }
 
 
