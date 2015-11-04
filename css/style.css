@@ -41,10 +41,10 @@ h2 {
 
 h1 {
     color: #fff;
-    font-size: 4em;
+    font-size: 6em;
     position: absolute;
-    margin-left: 550px;
-    margin-top: 200px
+    margin-left: 425px;
+    margin-top: 200px;
 }
 
 nav a:link {
@@ -53,18 +53,10 @@ nav a:link {
 }
 
 .main_header {
-    background: #FF4D97 url(../images/thistle_image.jpeg) no-repeat center/cover;
-    opacity: /***for a later date*/;
+    background: #FF4D97 url(../images/my_life_header.jpeg) no-repeat center/cover;
     height: 450px;
 }
 
-/**********************May or may not need this
-h1,
-nav a:link {
-    opacity: none;
-}
-
-************************************************/
 
 /********************************
     Reviews
@@ -72,8 +64,12 @@ nav a:link {
 
 
 .reviews {
-    padding: 5%;
-    font-size: 17px;
+    margin: 25px 250px 50px;
+    font-size: 1.5em;
+    box-shadow: 0px 0px 15px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #F2F0EB;
 }
 
 .review_header {
@@ -98,27 +94,41 @@ nav a:link {
     Images
 ********************************/
 
-#dj_glasses {
-    height: 250px;
-    margin-left: 40px;
-    
-}
-
-#fb_like {
-    height: 200px;
-    margin-left: 100px;
-}
 
 
 /********************************
         Events
 ********************************/
 
-.fb_events {
-    margin-left: 75px;
+.social_email {
     font-size: 2em;
     font-weight: 700;
-    margin-top: 75px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+#stamps {
+    margin-left: 200px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.social_email2 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-right: 200px;
+    margin-top: 90px;
+}
+
+.social_email,
+.social_email2{
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color: #F2F0EB;
+    box-shadow: 0px 0px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 
@@ -138,7 +148,8 @@ h2 {
  
 .book_cover,
 .k_book_store,
-.c_book_store {
+.c_book_store,
+.burn_bush {
     margin-left: 150px;
 }
 
@@ -148,20 +159,16 @@ h2 {
     margin-top: 50px;
 }
 
-h2 {
-    font-weight: 700;
-    font-size: 2em;
-    margin-bottom: 30px;
-}
-
 .k_book_store, 
 .c_book_store {
     margin-bottom: 45px;
+    margin-top: 30px
 }
 
 .buy_now_button {
-    margin-left: 550px;
+    margin-left: 530px;
     height: 40px;
+    margin-top: 10px;
 }
 
 /**********************************
@@ -184,8 +191,9 @@ h2 {
     margin-top: 45px;
 }
 
-.normal_links {
+body p #normal_links {
     margin: 0px;
+    font-size: 20px;
 }
 
 

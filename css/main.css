@@ -22,19 +22,19 @@ a {
     
 }
 
-nav {
-    
-}
+/*********************************
 
-
-
-
-
+*********************************/
 
 footer {
-    background: #57BCFF;
-    text-align: right;
-    postition: relative;
-    padding: 0px 10px;
-    margin-top: 400px;
+    padding: 10px 10px;
+    margin-top: 300px;
+    float: relative;
+    border-top-left-radius: 10px; 
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.bird {
+    height: 40px;
 }
