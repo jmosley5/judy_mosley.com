@@ -43,7 +43,7 @@ h1 {
     color: #fff;
     font-size: 6em;
     position: absolute;
-    margin-left: 425px;
+    margin-left: 450px;
     margin-top: 200px;
 }
 
@@ -90,11 +90,6 @@ nav a:link {
 }
 
 
-/********************************
-    Images
-********************************/
-
-
 
 /********************************
         Events
@@ -103,32 +98,45 @@ nav a:link {
 .social_email {
     font-size: 2em;
     font-weight: 700;
-    margin-right: 200px;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 #stamps {
-    margin-left: 200px;
+    margin-left: 350px;
     margin-bottom: 40px;
     margin-top: 30px;
+    height: 150px;
 }
 
 .social_email2 {
     font-size: 2em;
     font-weight: 700;
-    margin-right: 200px;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
-.social_email,
-.social_email2{
+.social_email a:link,
+.social_email2 a:link {
     text-align: center;
-    padding: 50px 0px 50px 0px;
+    padding: 10px 10px 10px 10px;
     background-color: #F2F0EB;
-    box-shadow: 0px 0px 15px;
+    box-shadow:  inset 0px 0px 15px #bfbfbf;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
+}
+
+.events_p {
+    text-align: center; 
+    font-size: 2em;
+}
+
+#event_pics {
+    height: 200px;
+}
+
+.col-md-4 {
+    text-align: center;
+    margin-top: 150px;
 }
 
 
