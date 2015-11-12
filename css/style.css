@@ -15,7 +15,7 @@ p {
     font-family: "Simonetta", cursive, Helvetica, Arial, sans-serif!important;
 }
 
-h1 {
+.my_name {
     text-shadow: 2px 2px #616161;
     font-family: "Dawning of a New Day", cursive, Helvetica, Arial, sans-serif!important;
     
@@ -39,12 +39,9 @@ h2 {
     Header
 ********************************/
 
-h1 {
+.my_name {
     color: #fff;
     font-size: 6em;
-    position: absolute;
-    margin-left: 450px;
-    margin-top: 200px;
 }
 
 nav a:link {
@@ -56,7 +53,6 @@ nav a:link {
     background: #FF4D97 url(../images/my_life_header.jpeg) no-repeat center/cover;
     height: 450px;
 }
-
 
 /********************************
     Reviews
@@ -185,7 +181,6 @@ h2 {
 
 #square_profile_pic {
     height: 200px;
-    margin-left: 550px;
     margin-top: 30px;
 }
 
