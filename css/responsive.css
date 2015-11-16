@@ -35,23 +35,23 @@
     
     .about_p,
     .reviews {
-        margin: 0px 15px 20px;
+        margin: 0px 50px 20px;
     }
     
     .book_cover,
     .burn_bush {
         margin: 0px 0px 30px;
-        height: 300px
+        height: 300px;
     }
     
     .c_book_store {
         margin: 0px 0px 20px;
-        height: 100px
+        height: 100px;
     }
     
     .k_book_store {
         margin: 0px 0px 20px;
-        height: 200px
+        height: 200px;
     }
     
     .buy_now_button {
@@ -59,18 +59,19 @@
     }
    
     #event_pics { 
-         height: 0; 
+        height: 0; 
         width: 0; 
         overflow: hidden;
     }
     
     #stamps {
-        margin: 0px 10px 0px 45px;
-        height: inherit;
+        height: 200px;
+        margin-left: 75px;
+        margin-top: -100px;
     }
     
     .footer {
-        margin: 0px;
+        margin-top: -500px;
     }
     
     .events_p {
@@ -85,6 +86,12 @@
         display: none;
     }
     
+    .social_email,
+    .social_email2 {
+        height: 0; 
+        width: 0; 
+        overflow: hidden;
+    }
     
 }
 
@@ -111,8 +118,27 @@
     }
     
     #stamps {
-        margin-left: 210px;
-        margin-top: 25px;
+        margin-left: 250px;
+        margin-top: 45px;
+    }
+    
+   .social_email,
+   .social_email2 {
+        height: 150px;
+        width: 300px;
+        margin-left: 208px;   
+    }
+    
+    .email {
+        padding-left: 19px;
+    }
+    
+    div p a {
+        display: inline;
+    }
+    
+    .reviews {
+        margin: 20px 50px 30px;
     }
     
 }
@@ -137,7 +163,7 @@
     }
     
     .book_cover {
-        margin-left: 315px
+        margin-left: 315px;
     }
     
     .buy_now_button {
@@ -152,14 +178,62 @@
     .reviews {
         margin: 50px;
     }
+    
+    #stamps {
+        margin-top: 50px;
+        margin-left: -5px;
+    }
+    
+    .footer {
+        margin-top: 100px;
+    }   
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
+@media only screen and (min-width: 1200px) { 
     .my_name {
+        margin-left: 400px;
+        margin-bottom: 30px;
     
     }
+    
+    #square_profile_pic {
+        float: none;
+        margin-left: 530px;
+    }
+    
+    .about_p {
+        margin: 0px 150px 20px;
+    }
+    
+    .book_cover,
+    .buy_now_button,
+    .k_book_store {
+        padding-left: 130px;
+    }
+    
+    #stamps {
+        height: 200px;
+    }
+    
+    .social_email,
+    .social_email2 {
+        margin-left: 300px;
+    }
+    
+    #event_pics {
+        height: 200px;
+        width: 200px;
+    }
+    
+    .reviews {
+        margin: 30px 150px 50px;
+    }
+    
+    
 }
+
+
 
 
 
