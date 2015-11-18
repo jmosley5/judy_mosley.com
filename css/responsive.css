@@ -70,7 +70,7 @@
         margin-top: -100px;
     }
     
-    .footer {
+    .event_footer {
         margin-top: -500px;
     }
     
@@ -176,7 +176,7 @@
     }
     
     .reviews {
-        margin: 50px;
+        margin: 30px 150px 30px;
     }
     
     #stamps {
@@ -184,7 +184,7 @@
         margin-left: -5px;
     }
     
-    .footer {
+    .event_footer {
         margin-top: 100px;
     }   
 }
@@ -232,28 +232,3 @@
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
